@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "FuncdationAddtion"
+  s.name         = "FoundationAddtion"
   s.version      = "0.0.1"
   s.summary      = "FuncdationAddtion."
   s.homepage     = "https://github.com"
