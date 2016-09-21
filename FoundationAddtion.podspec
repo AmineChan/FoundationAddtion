@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "FoundationAddtion"
   s.version      = "0.0.1"
-  s.summary      = "FuncdationAddtion."
+  s.summary      = "FoundationAddtion."
   s.homepage     = "https://github.com"
   s.license      = "MIT"
   s.author       = {"czm" => "328525910@qq.com",}
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source       = { :git  => "https://github.com/AmineChan/FoundationAddtion.git", :tag => s.version }
 
   s.requires_arc  = true
-  s.source_files  = "FuncdationAddtion/*.{h,m}"
+  s.source_files  = "FoundationAddtion/*.{h,m}"
 
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
   s.libraries = 'z'
