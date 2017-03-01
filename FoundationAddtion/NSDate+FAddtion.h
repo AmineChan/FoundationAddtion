@@ -37,12 +37,12 @@ extern NSString *const kDateFormat_yyyyMMdd_joinedByVirgule;// yyyy/MM/dd
 
 @interface NSDate (NSDateChangeAddtion)
 
-- (nullable NSDate *)addingYears:(NSUInteger)years;     // e.g. lastYear:[date addingYears:-1] nextYear:[date addingYears:1]
-- (nullable NSDate *)addingMonths:(NSUInteger)months;
-- (NSDate *)addingDays:(NSUInteger)days;
-- (NSDate *)addingHours:(NSUInteger)hours;
-- (NSDate *)addingMinutes:(NSUInteger)minutes;
-- (NSDate *)addingSeconds:(NSUInteger)seconds;
+- (nullable NSDate *)addingYears:(NSInteger)years;     // e.g. lastYear:[date addingYears:-1] nextYear:[date addingYears:1]
+- (nullable NSDate *)addingMonths:(NSInteger)months;
+- (NSDate *)addingDays:(NSInteger)days;
+- (NSDate *)addingHours:(NSInteger)hours;
+- (NSDate *)addingMinutes:(NSInteger)minutes;
+- (NSDate *)addingSeconds:(NSInteger)seconds;
 
 - (nullable NSDate *)lastYear;
 - (nullable NSDate *)nextYear;
